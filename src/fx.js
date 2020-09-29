@@ -27,8 +27,8 @@
 	}
 });
 
-var title = '赵露思同款卸妆油等你来领'
-var desc = 'ATTENIR艾天然 | 天然好卸，彩妆从此不粘人'
+var title = '月满家乡  家书邮局'
+var desc = '纸短情长为爱团圆。不如写封家书以托情愫！'
 var link = 'http://campaign.realh5.cn/2020/wanda/index.html'
 var imgUrl = 'http://cdn.campaign.realh5.cn/2020/wanda/share.jpg'
 
