@@ -27,8 +27,8 @@
 	}
 });
 
-var title = '月满家乡  家书邮局'
-var desc = '纸短情长为爱团圆。不如写封家书以托情愫！'
+var title = '月满家乡，为爱团圆'
+var desc = '月满中秋人共醉，光辉万里梦同圆。'
 var link = 'http://campaign.realh5.cn/2020/wanda/index.html'
 var imgUrl = 'http://cdn.campaign.realh5.cn/2020/wanda/share.jpg'
 
@@ -43,7 +43,7 @@ function updata(){
             link: link,
             imgUrl: imgUrl,
             success: function () {
-                // _czc.push(['_trackEvent', '微信分享', '朋友圈', '成功'])
+                _czc.push(['_trackEvent', '微信分享', '朋友圈', '成功'])
                 console.log('onMenuShareTimeline')
             },
             cancel: function () {
@@ -58,7 +58,7 @@ function updata(){
             imgUrl: imgUrl,
             success: function () {
                 // 用户确认分享后执行的回调函数
-                // _czc.push(['_trackEvent', '微信分享', '好友', '成功'])
+                _czc.push(['_trackEvent', '微信分享', '好友', '成功'])
             },
             cancel: function () {
                 // 用户取消分享后执行的回调函数
